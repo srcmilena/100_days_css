@@ -1,0 +1,59 @@
+/* delete the following line if no text is used
+edit the line if you wanna use other fonts */
+
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,700&family=Quicksand:wght@700&display=swap);
+
+/*use only the available space inside the 400x400 frame*/
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 20px;
+	box-shadow: 4px 8px 16px 0 rgba(0.5, 0.5, 0.5, 0.5);
+	overflow: hidden;
+	background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	color: #5b5b5b;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.number {
+	display: block;
+	position: relative;
+	font-size: 80px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.days {
+	display: block;
+	position: relative;
+	font-size: 55px;
+	line-height: 60px;
+	text-align: center;
+	padding: 10px;
+	left: 5px;
+}
+
+.css {
+	display: block;
+	position: relative;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: center;
+	left: 6px
+}
